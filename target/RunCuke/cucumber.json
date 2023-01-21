@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4468067600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User verify Should click on casino button",
+        "description": "",
+        "id": "virgingames;user-verify-should-click-on-casino-button",
+        "after": [
+          {
+            "result": {
+              "duration": 848070300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 223366100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on accept cookies",
+            "match": {
+              "location": "MyStepdefs.iClickOnAcceptCookies()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154235800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on casino button",
+            "match": {
+              "location": "MyStepdefs.iClickOnCasinoButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 893117300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on join now",
+            "match": {
+              "location": "MyStepdefs.iClickOnJoinNow()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "virgingames",
+    "description": "As user I want to click on any element on virgin games",
+    "id": "virgingames",
+    "keyword": "Feature",
+    "uri": "regiter.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
